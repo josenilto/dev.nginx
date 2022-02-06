@@ -8,6 +8,13 @@ Nginx é um software livre e de código aberto, lançado sob os termos da licen�
 
 ### HTTP: Entendendo a WEB NGNIX
 
+Hypertext Transfer Protocol (HTTP) é um protocolo de camada de aplicação para transmissão de documentos hipermídia, como HTML. 
+Ele foi projetado para comunicação entre navegadores da web e servidores da web, mas também pode ser usado para outros fins.  
+
+O Hypertext Transfer Protocol é um protocolo de camada de aplicação no modelo de conjunto de protocolos da Internet para sistemas de informação hipermídia distribuídos e colaborativos
+
+
+
 Entenda os detalhes do protocolo HTTP
 
 Saiba quando usar GET e POST

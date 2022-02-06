@@ -1,6 +1,10 @@
 #!/bin/bash
 
 echo ""
+echo "INICIANDO O PROCESSO..."
+echo ""
+
+echo ""
 echo "Atualizando o sistema..."
 echo ""
 

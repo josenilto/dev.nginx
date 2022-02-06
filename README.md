@@ -1,7 +1,9 @@
 ## 🛠 Dev NGINX | Instalar e configurar
 
-NginX, é um servidor web que também pode ser usado como proxy reverso, balanceador de carga, proxy de correio e cache HTTP.   
+NginX, é um servidor web que também pode ser usado como proxy reverso, balanceador de carga, proxy de correio e cache HTTP.  
+
 O software foi criado por Igor Sysoev e lançado publicamente em 2004.  
+
 Nginx é um software livre e de código aberto, lançado sob os termos da licença BSD de 2 cláusulas
 
 ### HTTP: Entendendo a WEB NGNIX

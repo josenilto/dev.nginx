@@ -77,7 +77,7 @@ sudo systemctl enable nginx.service
 
 NGINX está agora instalado e funcionando!
 
-**Encontrar o endereço IP público do seu servidor**     
+✅ **Encontrar o endereço IP público do seu servidor**     
 
 Você pode executar o seguinte comando para revelar o endereço IP público do servidor:     
 
@@ -85,11 +85,11 @@ Você pode executar o seguinte comando para revelar o endereço IP público do s
 ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 ```
 
-**root e configuração do servidor**
+✅ **root e configuração do servidor**
 
 Se você quiser começar a servir as suas próprias páginas ou aplicações através do NGINX, você vai querer saber os locais dos arquivos de configuração e de raiz do servidor padrão.
 
-**pasta raiz padrão**
+✅ **pasta raiz padrão**
 
 O diretório raiz do servidor padrão é **/usr/share/nginx/html**.      
 

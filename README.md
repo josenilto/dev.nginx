@@ -1,4 +1,4 @@
-## 🛠 DEV NGINX | Instalar e configurar
+## 🛠 DEV NGINX | Instalar e configurar no RHEL / CentOS 8
 
 NginX, é um servidor web que também pode ser usado como proxy reverso, balanceador de carga, proxy de correio e cache HTTP.  
 

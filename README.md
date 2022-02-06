@@ -71,3 +71,29 @@ Você vai ver a página  NGINX padrão, que está lá para fins informativos e d
 Antes de continuar, você provavelmente vai querer permitir o NGINX iniciar quando o seu sistema ligar.      
 Para fazer isso, digite o seguinte comando:
 
+```inicialização
+sudo systemctl enable nginx.service
+```
+
+NGINX está agora instalado e funcionando!
+
+**Encontrar o endereço IP público do seu servidor**     
+
+Você pode executar o seguinte comando para revelar o endereço IP público do servidor:     
+
+```rede
+ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+```
+
+**root e configuração do servidor**
+
+Se você quiser começar a servir as suas próprias páginas ou aplicações através do NGINX, você vai querer saber os locais dos arquivos de configuração e de raiz do servidor padrão.
+
+**pasta raiz padrão**
+
+O diretório raiz do servidor padrão é **/usr/share/nginx/html**.      
+
+Os arquivos que são colocados lá serão servidos no seu servidor web.      
+Esse local é especificado no arquivo de configuração do bloco de servidor padrão que vem com o NGINX, que está localizado na **/etc/nginx/conf.d/default.conf**.
+
+

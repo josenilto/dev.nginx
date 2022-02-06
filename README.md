@@ -6,7 +6,9 @@ O software foi criado por Igor Sysoev e lançado publicamente em 2004.
 
 Nginx é um software livre e de código aberto, lançado sob os termos da licença BSD de 2 cláusulas
 
-### HTTP: Entendendo a WEB NGNIX
+##### HTTP: Entendendo a web
+
+- [] Entenda os detalhes do protocolo HTTP
 
 Hypertext Transfer Protocol (HTTP) é um protocolo de camada de aplicação para transmissão de documentos hipermídia, como HTML.  
 Ele foi projetado para comunicação entre navegadores da web e servidores da web, mas também pode ser usado para outros fins.  
@@ -14,8 +16,6 @@ Ele foi projetado para comunicação entre navegadores da web e servidores da we
 O Hypertext Transfer Protocol é um protocolo de camada de aplicação no modelo de conjunto de protocolos da Internet para sistemas de informação hipermídia distribuídos e colaborativos
 
 
-
-Entenda os detalhes do protocolo HTTP
 
 Saiba quando usar GET e POST
 

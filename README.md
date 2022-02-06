@@ -26,3 +26,26 @@ Conheça as melhorias do HTTP/2
 
 
 Proxy, Cache, balancer, https
+
+
+
+✅ **Passo 01** - Repositório EPEL
+
+Para adicionar o repositório EPEL, abra um terminal e use o seguinte comando:   
+
+sudo yum install epel-release
+
+✅ **Passo 02** - Instalar o Nginx   
+
+Para instalar o NGINX execute o seguinte comando yum:   
+
+sudo yum install nginx
+
+Depois que você responder sim para o prompt, será instalado o NGINX.
+
+✅ **Passo 03** - Iniciar o NGINX
+
+Caso o Nginx não iniciar por si próprio. Execute para iniciar:   
+
+sudo systemctl start nginx.service
+

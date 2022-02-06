@@ -6,7 +6,7 @@ O software foi criado por Igor Sysoev e lançado publicamente em 2004.
 
 Nginx é um software livre e de código aberto, lançado sob os termos da licença BSD de 2 cláusulas
 
-##### HTTP: Entendendo a web
+✅ **HTTP:** Entendendo a web
 
 - [ ] Entenda os detalhes do protocolo HTTP
 

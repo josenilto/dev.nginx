@@ -33,7 +33,7 @@ Proxy, Cache, balancer, https
 
 Para adicionar o repositório EPEL, abra um terminal e use o seguinte comando:   
 
-```Pacote
+```shell
 sudo yum install epel-release
 ```
 

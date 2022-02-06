@@ -102,3 +102,5 @@ Quaisquer domínios de servidor adicionais (conhecidos como hosts virtuais no Ap
 Os arquivos que terminam com .conf no diretório serão carregados quando NGINX for iniciado.
 
 O principal arquivo de configuração do NGINX está localizado na **/etc/nginx/nginx.conf**.
+
+Este é o lugar onde você pode alterar as configurações de como o usuário que executa os processos, e o número de processos de trabalho que são gerados quando NGINX está sendo executado, entre outras coisas.

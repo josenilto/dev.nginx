@@ -94,9 +94,11 @@ Se você quiser começar a servir as suas próprias páginas ou aplicações atr
 O diretório raiz do servidor padrão é **/usr/share/nginx/html**.      
 
 Os arquivos que são colocados lá serão servidos no seu servidor web.      
+
 Esse local é especificado no arquivo de configuração do bloco de servidor padrão que vem com o NGINX, que está localizado na **/etc/nginx/conf.d/default.conf**.
 
-Quaisquer domínios de servidor adicionais (conhecidos como hosts virtuais no Apache), deve ser feita criação de novos arquivos de configuração em **/etc/nginx/conf.d**.      
+Quaisquer domínios de servidor adicionais (conhecidos como hosts virtuais no Apache), deve ser feita criação de novos arquivos de configuração em **/etc/nginx/conf.d**.    
+
 Os arquivos que terminam com .conf no diretório serão carregados quando NGINX for iniciado.
 
 O principal arquivo de configuração do NGINX está localizado na **/etc/nginx/nginx.conf**.

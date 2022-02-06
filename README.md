@@ -54,3 +54,14 @@ Caso o Nginx não iniciar por si próprio. Execute para iniciar:
 ```service
 sudo systemctl start nginx.service
 ```
+Execute os seguintes comandos para permitir tráfego HTTP e HTTPS:  
+
+```firewall
+sudo firewall-cmd --permanent --zone=public --add-service=http
+sudo firewall-cmd --permanent --zone=public --add-service=https
+sudo firewall-cmd --reload
+```
+
+Você pode fazer uma verificação no local imediatamente para verificar se tudo correu bem, visitando o endereço IP público do seu servidor em seu navegador:   
+
+**http://ip-servidor**

@@ -30,7 +30,7 @@ Proxy, Cache, balancer, https
 Para adicionar o repositório EPEL, abra um terminal e use o seguinte comando:
 
 ```package
-sudo yum install epel-release
+sudo yum -y install epel-release
 ```
 
 ✅ **Passo 02**; Instalar o Nginx
@@ -38,7 +38,7 @@ sudo yum install epel-release
 Para instalar o NGINX execute o seguinte comando yum:
 
 ```nginx
-sudo yum install nginx
+sudo yum -y install nginx
 ```
 
 Depois que você responder sim para o prompt, será instalado o NGINX.

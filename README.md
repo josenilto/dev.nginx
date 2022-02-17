@@ -61,7 +61,7 @@ sudo firewall-cmd --reload
 
 Você pode fazer uma verificação no local imediatamente para verificar se tudo correu bem, visitando o endereço IP público do seu servidor em seu navegador:
 
-**http://[Server IP|Hostname]**
+**http://[ Server IP | Hostname ]**
 
 Você vai ver a página NGINX padrão, que está lá para fins informativos e de teste.
 
